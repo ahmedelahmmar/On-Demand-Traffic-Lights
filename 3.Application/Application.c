@@ -169,12 +169,6 @@ void APP_Start(void)
 	// LEDs initialization
 	LEDS_Init();
 
-	// Global interrupt enable
-	GINT_Enable();
-
-	// External interrupt INT0 configuration
-	EXTINT_voidConfig(EXTINT_INT0, EXTINT_RISING_EDGE);
-
 	// TIMER0 initialization, setting TIMER0_Execution as the callback function and setting its period as 500ms
 	TIMER_Init(TIMER0);
 	TIMER_SetCallBack(TIMER0, TIMER0_Execution);

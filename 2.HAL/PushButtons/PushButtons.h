@@ -9,6 +9,8 @@
 #define SOURCES_2_HAL_BUTTON_INCLUDES_BUTTON_H_
 
 #include "DIO.h"
+#include "../1.MCAL/Interrupts/EXTINT.h"
+#include "../1.MCAL/Interrupts/GINT.h"
 
 typedef enum
 {

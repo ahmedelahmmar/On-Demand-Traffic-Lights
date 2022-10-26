@@ -10,6 +10,12 @@
 void PB_Init(void)
 {
 	DIO_voidConfig(DIO_PIN2, DIO_PORTD, DIO_INPUT);
+
+	// Global interrupt enable
+	GINT_Enable();
+
+	// External interrupt INT0 configuration
+	EXTINT_voidConfig(EXTINT_INT0, EXTINT_FALLING_EDGE);
 }
 
 PushButton_Status_t PB_Status(PushButton_ID_t PB_ID)
