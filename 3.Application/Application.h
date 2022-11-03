@@ -8,8 +8,6 @@
 #ifndef _APPLICATION_APPLICATION_H_
 #define _APPLICATION_APPLICATION_H_
 
-#include "../1.MCAL/TIMER/TIMER.h"
-
 #include "../2.HAL/PushButtons/PushButtons.h"
 #include "../2.HAL/LEDS/LEDS.h"
 

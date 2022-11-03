@@ -9,6 +9,7 @@
 #define SOURCES_2_HAL_LED_INCLUDES_LED_H_
 
 #include "DIO.h"
+#include "../1.MCAL/TIMER/TIMER.h"
 
 typedef enum
 {
